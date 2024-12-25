@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Poppins", serif;
+    background: linear-gradient(350deg,
+    #1bb295,
+    #ffff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    width: 430px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.wrapper h1{
+    font-size: 24px;
+    font-weight: 500;
+    font-family:  "Poppins", serif;
+    padding: 20px 25px;
+    border-bottom: 1px solid #ccc;
+}
+.wrapper .content{
+    margin: 25px 25px 35px;
+}
+.content .inputs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.inputs input{
+    width: 57px;
+    height: 56px;
+    margin: 3px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1bb295;
+}
+.content .details{
+    margin: 20px 0px 25px;
+}
+.content .typing-input{
+    z-index: -999;
+    opacity: 0;
+    position: absolute;
+}
+.reset-btn{
+    width: 100%;
+    padding: 15px 0;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #1bb295;
+    border-radius: 5px;
+}
+.details p{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.inputs input :first-child{
+    margin-left: 0px;
+}
