@@ -15,7 +15,7 @@ function randomWord (){
     hint.innerText = ranObj.hint;
     guessLeft.innerText = maxguesses;
     wrongLetter.innerText = incorrects;
-console.log(ranObj);
+console.log(word);
     let html = "";
     for(
         i = 0 ; i < word.length; i++){
